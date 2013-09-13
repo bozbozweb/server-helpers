@@ -14,7 +14,7 @@ This contains some code which puts the path and git repo status in your command 
 
 The branch name will change colour if you have uncommitted or staged files.
 
-<div class="alert tip">
+<div class="flash flash-notice">
 <p><strong>Gotcha</strong>: The command runs a git status, so if you find it slow going into your repository, comment out the bits between the colour tags</p>
 </div>
 
