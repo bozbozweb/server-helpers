@@ -12,7 +12,9 @@ This contains some code which puts the path and git repo status in your command 
 
 	root@server:/home/path/public_html/server-helpers [master]$
 
-The branch name will change colour if you have uncommitted or staged files.
+The branch name will change colour if you have uncommitted or staged files. 
+
+I have modified this one from the one provided by [Tobias Sjösten](http://vvv.tobiassjosten.net/bash/dynamic-prompt-with-git-and-ansi-colors/)
 
 <div class="flash flash-notice">
 <p><strong>Gotcha</strong>: The command runs a git status, so if you find it slow going into your repository, comment out the bits between the colour tags</p>
