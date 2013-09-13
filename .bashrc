@@ -1,3 +1,5 @@
+# .bashrc
+
 # User specific aliases and functions
 
 # Standard entries for CentOS
