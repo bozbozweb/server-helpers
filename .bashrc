@@ -6,6 +6,11 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias vi='vim'
 
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
 ##
 # The below section adds the path and git branch/staus to your promt. The status can be a bit slow
 ##
